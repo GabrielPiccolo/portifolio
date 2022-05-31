@@ -5,19 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- ========== FAVIVCON ==========-->
+    <!-- ========== FAVIVCON ========== -->
     <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
-    <!-- ========== CSS ==========-->
+    <!-- ========== CSS ========== -->
     <link rel="stylesheet" href="style.css">
 
     <title>Portfólio - Gabriel Piccolo</title>
 </head>
 <body>
     <div class="container">
+    
+    <!-- ========== MENU ========== -->
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+        </div>
+
+    <!-- ========== HEADER ========== -->   
         <header>
             <div class="img-wrapper">
                 <img src="imagens/background.jpg" alt="">
@@ -28,11 +37,98 @@
                 <button>Saiba Mais</button>
             </div>
         </header>
+
+    <!-- ========== SIDEBAR ========== -->
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Conhecimento</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Projetos</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="https://www.instagram.com/gabspiccolo/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/GabrielPiccolo" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/gabriel-piccolo-886605204/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </aside>
+
+        <!-- ========== SECTION CONHECIMENTOS ========== -->
+        <section class="sessao-conhecimentos">
+            <div class="sessao-header">
+                <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ducimus, laboriosam laudantium voluptatibus vero, accusamus quaerat ut dolor architecto, aperiam modi assumenda voluptatem perspiciatis voluptas suscipit. Repellat ut quibusdam perferendis.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-css3"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore magni sed, sapiente ut eligendi debitis dignissimos, consequatur accusantium officia vel earum. Facere quod molestias in excepturi velit cumque, ullam quis?</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-js"></i>
+                        <h3>Javascript</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus nam quibusdam, atque architecto nobis dolore? A unde veritatis magnam, nam quo qui at debitis. Temporibus delectus quasi doloribus dolorem consectetur?</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-github"></i>
+                        <h3>Git/Github</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit ipsa qui consectetur molestias assumenda consequuntur dolores placeat! Tempore eum autem minus vero deserunt, architecto adipisci facilis doloribus saepe praesentium optio!</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rem quia culpa tempore laborum enim consequuntur, dolorum voluptatum nemo doloremque eligendi officiis quae placeat aperiam similique facilis molestias nisi id.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-react"></i>
+                        <h3>React</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi itaque, doloribus libero nemo fugit voluptas voluptate culpa fuga tempore corporis! Temporibus vel assumenda autem quod necessitatibus qui omnis eos soluta?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
     </div>
 
-
-
-
-    <!-- ========== MAIN JS ==========-->
 </body>
+
+    <script src="script.js"></script>
 </html>
