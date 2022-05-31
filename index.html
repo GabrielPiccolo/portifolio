@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- ========== FAVIVCON ========== -->
+<!-- ========== FAVIVCON ========== -->
     <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
-    <!-- ========== CSS ========== -->
+<!-- ========== CSS ========== -->
     <link rel="stylesheet" href="style.css">
 
     <title>Portfólio - Gabriel Piccolo</title>
@@ -19,15 +19,15 @@
 <body>
     <div class="container">
     
-    <!-- ========== MENU ========== -->
+<!-- ========== MENU ========== -->
         <div class="hamburguer">
             <div class="line" id="line1"></div>
             <div class="line" id="line2"></div>
             <div class="line" id="line3"></div>
         </div>
 
-    <!-- ========== HEADER ========== -->   
-        <header>
+<!-- ========== HEADER ========== -->   
+        <header id="home">
             <div class="img-wrapper">
                 <img src="imagens/background.jpg" alt="">
             </div>
@@ -38,7 +38,7 @@
             </div>
         </header>
 
-    <!-- ========== SIDEBAR ========== -->
+<!-- ========== SIDEBAR ========== -->
         <aside class="sidebar">
             <nav>
                 <ul class="menu">
@@ -46,13 +46,13 @@
                         <a href="#" class="menu-link">Home</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#" class="menu-link">Conhecimento</a>
+                        <a href="#conhecimentos" class="menu-link">Conhecimento</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#" class="menu-link">Projetos</a>
+                        <a href="#projetos" class="menu-link">Projetos</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#" class="menu-link">Contato</a>
+                        <a href="#contato" class="menu-link">Contato</a>
                     </li>
                 </ul>
             </nav>
@@ -63,8 +63,8 @@
             </div>
         </aside>
 
-        <!-- ========== SECTION CONHECIMENTOS ========== -->
-        <section class="sessao-conhecimentos">
+<!-- ========== SECTION CONHECIMENTOS ========== -->
+        <section class="sessao-conhecimentos" id="conhecimentos">
             <div class="sessao-header">
                 <h1>Conhecimentos</h1>
             </div>
@@ -123,12 +123,104 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi itaque, doloribus libero nemo fugit voluptas voluptate culpa fuga tempore corporis! Temporibus vel assumenda autem quod necessitatibus qui omnis eos soluta?</p>
                     </div>
                 </div>
+                <div class="conhecimento-img-wrapper">
+                    <img src="imagens/conhecimentos.png" alt="">
+                </div>
             </div>
         </section>
-        
+
+<!-- ========== SECTION PROJETOS ========== -->
+        <section class="sessao-projetos" id="projetos">
+            <div class="sessao-header">
+                <h1>Projetos</h1>
+            </div>
+            <div class="projetos">
+
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="imagens/card-comming soon.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>titulo</h2>
+                        <h3>tecnologia</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam cum nesciunt veniam aliquid debitis? Totam, laudantium tempora quidem aliquid ipsa corrupti impedit assumenda voluptas hic, sit minima quaerat qui officia.</p>
+                        <button>Saiba Mais</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="imagens/card-comming soon.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Em Breve</h2>
+                        <h3>Aguarde...</h3>
+                        <p></p>
+                        <button>Saiba Mais</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="imagens/card-comming soon.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Em Breve</h2>
+                        <h3>Aguarde...</h3>
+                        <p></p>
+                        <button>Saiba Mais</button>
+                    </div>
+                </div>
+
+                </div>
+        </section>
+
+<!-- ========== SECTION CONTATOS ========== -->
+        <section class="sessao-contato" id="contato">
+            <div class="contato-wrapper">
+
+                <div class="contato-left"></div>
+
+                <div class="contato-right">
+                    <h1>Contato</h1>
+                    <form >
+                        <div class="input-group">
+                            <input type="text" class="field" id="nome">
+                            <label for="nome" class="field-label">Nome</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="field" id="email">
+                            <label for="email" class="field-label">Email</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="field" id="mensagem"></textarea>
+                            <label for="mensagem" class="field-label">Mensagem</label>
+                        </div>
+                        <button class="btn-submit" type="submit">Enviar</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+<!-- ========== FOOTER ========== -->
+        <footer>
+            <div class="footer-content">
+                <p>
+                    Copyright &copy; 2022, ETECIA DS - Todos os direitos reservados
+                </p>
+                <div class="social-list">
+                    <ul>
+                        <li><a href="https://www.instagram.com/gabspiccolo/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/gabriel-piccolo-886605204/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/GabrielPiccolo" target="_blank"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <a href="#home" id="link-topo"><i class="fas fa-arrow-up"></i></a>
+
     </div>
-
 </body>
-
     <script src="script.js"></script>
 </html>
